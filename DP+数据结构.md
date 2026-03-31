@@ -171,7 +171,7 @@ ans = max(ans, f[T][0]);
 
 我们不妨在 DFS 后把结点按照后序遍历序列**重新编号**。下图就是一个例子，左图为原树 A，右图为重新编号的树 B。
 
-![image-20260312162818037](C:\Users\zxy\AppData\Roaming\Typora\typora-user-images\image-20260312162818037.png)
+![image-20260312162818037](typora-user-images\image-20260312162818037.png)
 
 因此，设 dp(*i*,*j*) 表示将树 B 的结点 1…*i* 放入新图，背包容量为 *j* 时，所能取得的最大价值。设 size*i* 表示以 *i* 为根的子树的大小。
 
